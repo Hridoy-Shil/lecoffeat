@@ -110,6 +110,11 @@
 
     #apps .apps-content h2 {
         font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    #apps hr {
+        margin-top: -20px;
     }
 
     #apps .apps-content p {
@@ -127,18 +132,6 @@
         font-size: 10px;
         font-weight: 600;
     }
-
-    #around .all-location .padding {
-        padding-top: 5px;
-    }
-
-    #around .all-location .padding {
-        padding-bottom: 0px;
-    }
-
-    #around .location-img img {
-        height: 280px;
-    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -155,19 +148,6 @@
         font-size: 25px;
     }
 
-    #slider .carousel-caption h5 {
-        padding-bottom: 0%;
-    }
-
-    #slider .carousel-caption p {
-        font-size: 15px;
-        padding-bottom: 0%;
-    }
-
-    #slider .carousel-caption h5 i {
-        font-size: 70px;
-    }
-
     #around .coffee-shop-number h2,
     #around .coffee-shop-time h2 {
         font-size: 17px;
@@ -177,30 +157,13 @@
         font-size: 9px;
     }
 
-    #around .location-img img {
-        height: 250px;
-    }
-
-    #around .all-location {
-        height: 250px;
+    #apps .apps-content p {
+        padding-bottom: 0px;
     }
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    #slider .carousel-caption h5 {
-        padding-bottom: 1%;
-    }
-
-    #slider .carousel-caption p {
-        font-size: 15px;
-        padding-bottom: 0%;
-    }
-
-    #slider .carousel-caption h5 i {
-        font-size: 90px;
-    }
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}

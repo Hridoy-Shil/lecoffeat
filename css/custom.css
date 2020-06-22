@@ -41,10 +41,12 @@ ul li a {
     padding: 5px 10px;
     text-transform: uppercase;
 }
-#header-area .navbar .logo{
+
+#header-area .navbar .logo {
     width: 85%;
     height: auto;
 }
+
 #header-area .navbar-toggler-icon {
     background: none;
 }
@@ -156,7 +158,7 @@ ul li a {
 
 /*apps area start*/
 #apps {
-    padding: 90px 0;
+    padding: 90px 0 0 0;
     background-color: #f4f1f1;
 }
 
@@ -167,7 +169,8 @@ ul li a {
     position: relative;
     margin-bottom: 50px;
 }
-#apps .apps-content p{
+
+#apps .apps-content p {
     font-size: 16px;
     padding-bottom: 8px;
 }
@@ -186,18 +189,38 @@ ul li a {
 
 /*apps area end*/
 /*slider area start*/
-#slider .carousel-caption h5 {
-    padding-bottom: 2%;
-}
-
-#slider .carousel-caption h5 i {
-    font-size: 100px;
+#slider {
+    padding: 80px 0;
+    background-image: url(../img/sliderimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #fff;
 }
 
-#slider .carousel-caption p {
-    font-size: 18px;
-    padding-bottom: 3%;
+#slider .carousel-item .img-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 10px solid #c61d1d;
+}
+
+#slider .carousel-item p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.carousel-indicators {
+    margin-bottom: -50px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
 
 /*slider area end*/
@@ -211,16 +234,6 @@ ul li a {
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 5%;
-}
-
-#around .location-img img {
-    width: 100%;
-    height: 300px;
-}
-
-#around .location {
-    padding: 15px 10px 50px 10px;
-    background-color: #f4f1f1;
 }
 
 #around .coffee-shop-number h2,
@@ -252,10 +265,11 @@ ul li a {
 }
 
 #around .all-location {
-    height: 300px;
+    height: 305px;
     overflow: scroll;
 }
-#around .all-location .padding{
+
+#around .all-location .padding {
     padding-top: 10px;
 }
 
